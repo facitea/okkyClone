@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyContainer {
+    /* display: flex;
+    justify-content: center; */
+}
+
+main {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+
+hr {
+    border: 0.5px solid #DDDEE2;
+}
+
+nav {
+    margin: 0 auto;
+    width: 1150px;
+    /* margin: 0 auto를 사용해야 nav와 main의 라인을 맞출 수 있다. */
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLeftSide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navRightSide {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.searchBarWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.memberBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navLogo {
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navMenu{
+    width: 400px;
+}
+
+.navMenu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.searchBar {
+    border: 2px solid skyblue;
+    border-radius: 40px;
+    height: 30px;
+}
+
+.searchBar input {
+    border: none;
+    background: transparent;
+}
+
+.searchBar input:focus {
+    outline: none;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    /*배경색없애기*/
+}
+
+.memberBox {
+    display: flex;
+    margin-left: 60px;
+}
+
+.memberBox button {
+    width: 70px;
+}
+
+.loginBtn {
+    border: 1px solid #DDDEE2;
+    border-radius: 40px;
+    height: 36px;
+}
+.loginBtn:hover {
+    border: 1px solid #DDDEE2;
+    border-radius: 40px;
+    height: 36px;
+    background-color: #DDDEE2;
+}
+
+.signupBtn {
+    background-color: #0793F9;
+    color: white;
+    border-radius: 40px;
+    height: 36px;
+}
+.signupBtn:hover {
+    background-color: #0682db;
+    color: white;
+    border-radius: 40px;
+    height: 36px;
+}
+
+.suggestionWrapper {
+    background-color: #EFF6FF;
+    height: 60px;
+    display: table;
+    /* flex대신 table을 사용하고, 자식요소에 table-cell, middle 적용 */
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.suggestionBox {
+    font-size: 0.7rem;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+aside {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+}
+
+.rightAside {
+    width: 150px;
+}
+
+.mostPopularTags {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.bestTag {
+    margin-bottom: 4px;
+    padding-bottom: 6px;
+    text-align: left;
+}
+
+.bestTagR {
+    color: #0793F9;
+}
+
+.bodyContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bestTagL {
+    width: 126px;
+    text-align: left;
+}
+
+.bestTagR {
+    text-align: right;
+}
+
+.bestTagTable tbody tr {
+    border-bottom: 10px solid #fff;
+}
+
+.topWriters{
+    font-size: 0.7rem;
+}
+.bestTag tr{
+    display: flex;
+}
+.bestTag tr{
+    display: flex;
+}
+.topWritersimg{
+    width: 20px;
+}
+.topWritersimg img{
+    display:block;
+	width:100%;
+	height:auto;
+}
